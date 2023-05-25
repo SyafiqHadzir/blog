@@ -8,20 +8,6 @@
 {%- include head.html -%}
 
 <body class="{{ site.theme_config.appearance | default: "auto" }}">
-  <amp-analytics type=gtag data-credentials=include>
-    <script type=application/json>
-      {
-        "vars": {
-          "gtag_id": "UA-102964710-6",
-          "config": {
-            "UA-102964710-6": {
-              "groups": "default"
-            }
-          }
-        }
-      }
-    </script>
-  </amp-analytics>
   <main class="page-content" aria-label="Content">
     <div class="w">
       {{ content }}
